@@ -1,3 +1,5 @@
+package fagerland
+
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
@@ -11,6 +13,5 @@ class HealthCheckTests {
         val response = client.get("/")
         assertEquals(HttpStatusCode.OK, response.status)
         assertEquals("Hello World!", response.bodyAsText())
-
     }
 }

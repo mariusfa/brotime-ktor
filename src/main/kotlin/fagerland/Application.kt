@@ -1,4 +1,4 @@
-package com.example
+package fagerland
 
 import configureRouting
 import io.ktor.server.application.*
