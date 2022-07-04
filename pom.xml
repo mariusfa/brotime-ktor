@@ -57,6 +57,11 @@
             <artifactId>kotlin-test-junit</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-server-cors-jvm</artifactId>
+            <version>${ktor_version}</version>
+        </dependency>
     </dependencies>
 
     <build>
